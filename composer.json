@@ -1,6 +1,6 @@
 {
-  "name": "arslan-butt/property-sale",
-  "description": "Property sale system for vendors",
+  "name": "arslan-butt/property",
+  "description": "Property sale and purchase system for vendors",
   "keywords": [
     "property",
     "sale"
@@ -15,8 +15,8 @@
   "type": "project",
   "license": "BSD-3-Clause",
   "support": {
-    "issues": "https://github.com/yii2-starter-kit/yii2-starter-kit/issues?state=open",
-    "source": "https://github.com/yii2-starter-kit/yii2-starter-kit"
+    "issues": "https://github.com/arslan-butt/property/issues?state=open",
+    "source": "https://github.com/arslan-butt/property"
   },
   "require": {
     "php": ">=7.1.0",
