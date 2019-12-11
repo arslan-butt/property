@@ -27,11 +27,17 @@ class SettingsController extends Controller
                     'type' => FormModel::TYPE_DROPDOWN,
                     'items' => [
                         'skin-black' => 'skin-black',
+                        'skin-black-light' => 'skin-black-light',
                         'skin-blue' => 'skin-blue',
+                        'skin-blue-light' => 'skin-blue-light',
                         'skin-green' => 'skin-green',
+                        'skin-green-light' => 'skin-green-light',
                         'skin-purple' => 'skin-purple',
+                        'skin-purple-light' => 'skin-purple-light',
                         'skin-red' => 'skin-red',
+                        'skin-red-light' => 'skin-red-light',
                         'skin-yellow' => 'skin-yellow',
+                        'skin-yellow-light' => 'skin-yellow-light',
                     ],
                 ],
                 'backend.layout-fixed' => [
