@@ -146,12 +146,19 @@ Yii::info(Yii::$app->components["i18n"]["translations"]['*']['class'], 'test');
                         'visible' => Yii::$app->user->can('administrator'),
                     ],
                     [
+                        'label' => Yii::t('backend', 'Dashboard'),
+                        'url' => ['/dashboard/index'],
+                        'icon' => '<i class="fa fa-dashboard"></i>',
+                        'visible' => Yii::$app->user->can('administrator'),
+                    ],
+                    [
                         'label' => Yii::t('backend', 'Timeline'),
                         'icon' => '<i class="fa fa-bar-chart-o"></i>',
                         'url' => ['/timeline-event/index'],
                         'badge' => TimelineEvent::find()->today()->count(),
                         'badgeBgClass' => 'label-success',
                         'visible' => $user->can('administrator'),
+                       // miloschuman/yii2-highcharts-widget
                     ],
                     [
                         'label' => Yii::t('backend', 'Users'),
@@ -426,8 +433,8 @@ Yii::info(Yii::$app->components["i18n"]["translations"]['*']['class'], 'test');
     </div><!-- /.right-side -->
 
     <footer class="main-footer">
-        <strong>&copy; My Company <?php echo date('Y') ?></strong>
-        <div class="pull-right"><?php echo Yii::powered() ?></div>
+        <strong>&copy; dZone <?php echo date('Y') ?></strong>
+<!--        <div class="pull-right">--><?php //echo Yii::powered() ?><!--</div>-->
   </footer>
 </div><!-- ./wrapper -->
 

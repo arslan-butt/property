@@ -1,8 +1,10 @@
 <?php
+use \yii\web\Request;
+$baseUrl = str_replace('/backend/web', '', (new Request)->getBaseUrl());
 $config = [
     'homeUrl' => Yii::getAlias('@backendUrl'),
     'controllerNamespace' => 'backend\controllers',
-    'defaultRoute' => 'timeline-event/index',
+    'defaultRoute' => 'dashboard/index',
     'components' => [
         'errorHandler' => [
             'errorAction' => 'site/error',

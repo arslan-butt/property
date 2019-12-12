@@ -46,7 +46,8 @@
     "alexantr/yii2-elfinder": "^1.3",
     "trntv/sitemaped": "^0.1",
     "yii2mod/yii2-swagger": "^1.1",
-    "mdmsoft/yii2-admin": "~2.0"
+    "mdmsoft/yii2-admin": "~2.0",
+    "miloschuman/yii2-highcharts-widget": "^7.1"
   },
   "require-dev": {
     "yiisoft/yii2-debug": "^2.0.0",
